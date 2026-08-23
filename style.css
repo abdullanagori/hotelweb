@@ -19,7 +19,7 @@ body {
   min-height: 760px;
   background:
     linear-gradient(90deg, rgba(19, 17, 14, 0.78), rgba(19, 17, 14, 0.25)),
-    url("assets/hotel-photo-000.png") center/cover;
+    url("assets/hotel-photo-22.jpeg") center/cover;
   color: #fff;
 }
 .nav {
@@ -29,7 +29,16 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.22);
 }
-.brand {
+.brands {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+.brands {
   color: #fff;
   text-decoration: none;
   font-family: "Cormorant Garamond", serif;
