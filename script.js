@@ -1,4 +1,4 @@
-const phone="919644288438";
+const phone="919993112008";
 const navToggle=document.querySelector(".menu-toggle");
 const navLinks=document.querySelector(".nav-links");
 navToggle.addEventListener("click",()=>navLinks.classList.toggle("open"));
@@ -23,6 +23,6 @@ document.addEventListener("keydown",e=>{if(!lb.classList.contains("open"))return
 document.getElementById("bookingForm").addEventListener("submit",e=>{
   e.preventDefault();
   const f=new FormData(e.target);
-  const msg=`Hello Hotel Royal Palace, I would like to make a booking request.%0A%0AName: ${f.get("name")}%0APhone: ${f.get("phone")}%0ACheck-in: ${f.get("checkin")}%0ACheck-out: ${f.get("checkout")}%0AGuests: ${f.get("guests")}%0ARoom: ${f.get("room")}%0ASpecial request: ${f.get("message")||"None"}`;
+  const msg=`Hello Hotel Atishubh, I would like to make a booking request.%0A%0AName: ${f.get("name")}%0APhone: ${f.get("phone")}%0ACheck-in: ${f.get("checkin")}%0ACheck-out: ${f.get("checkout")}%0AGuests: ${f.get("guests")}%0ARoom: ${f.get("room")}%0ASpecial request: ${f.get("message")||"None"}`;
   window.open(`https://wa.me/${phone}?text=${msg}`,"_blank");
 });

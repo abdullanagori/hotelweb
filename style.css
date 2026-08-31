@@ -226,6 +226,18 @@ em {
   font-size: 30px;
   margin: 7px 0;
 }
+.room-price {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f5d98f, #b9882a);
+  color: #1d1408;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
 .room-body p {
   color: #69635b;
   font-size: 14px;
